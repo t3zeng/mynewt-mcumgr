@@ -18,10 +18,10 @@ This is done by adding the necessary dependencies to your app or target.  The fo
 ```
     - '@apache-mynewt-core/mgmt/smp/transport/ble'
     - '@apache-mynewt-core/mgmt/smp/transport/smp_shell'
-    - '@mynewt-mcumgr/cmd/fs_mgmt'
-    - '@mynewt-mcumgr/cmd/img_mgmt'
-    - '@mynewt-mcumgr/cmd/os_mgmt'
-    - '@mynewt-mcumgr/smp'
+    - '@apache-mynewt-mcumgr/cmd/fs_mgmt'
+    - '@apache-mynewt-mcumgr/cmd/img_mgmt'
+    - '@apache-mynewt-mcumgr/cmd/os_mgmt'
+    - '@apache-mynewt-mcumgr/smp'
 ```
 
 For an example of an app that uses mcumgr, see the `smp_svr` sample app in `samples/smp_svr/mynewt`.
